@@ -64,7 +64,7 @@ input[type="search"]::-webkit-search-cancel-button {
 /* carousel */
 @media only screen and (min-width: 1024px){
     .slide-intro .carousel-item{
-        height: 450px;
+        height: 500px;
     }
     .slide-intro .carousel-indicators li{
         width: 50px !important;
@@ -85,6 +85,11 @@ input[type="search"]::-webkit-search-cancel-button {
 
 /* comming */
 
+@media only screen  and (max-width: 620px){
+    .date-box{
+        display: none;
+    }
+}
 .comming-box{
     margin-top: 30px;
 }
